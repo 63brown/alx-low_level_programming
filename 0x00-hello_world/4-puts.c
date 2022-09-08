@@ -2,14 +2,14 @@
 /**
  * main - prints a string using puts function
  *
- * @char s - variable
- * @void - returns void
- * return - it returns (0)
+ * @char s - variable storing str
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char s[] = "\"Programming is like building a multilingual puzzle\n";
+	char s[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(s);
 
