@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <stdout.h>
-/*
- * main - prototype
+/**
+ * main - prints a string using puts function
  *
  * @char s - variable
- *
- * return - 0
+ * @void - returns void
+ * return - it returns (0)
  */
-int main(char s)
+
+int main(void)
 {
 	char s[] = "Programming is like building a multilingual puzzle\n";
 
-	puts(char s);
+	puts(s);
 
-	return(0);
+	return (0);
 }
