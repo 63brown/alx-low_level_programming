@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_rev - check the code.
@@ -13,6 +14,6 @@ void print_rev(char *s)
 		len++;
 
 	while (len)
-		_putchar(s[--len]);
-	_putchar('\n');
+		putchar(s[--len]);
+	putchar('\n');
 }
