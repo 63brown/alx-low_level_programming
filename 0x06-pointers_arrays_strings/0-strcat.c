@@ -1,7 +1,8 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcat - appends the src string to the dest string
+ * _strcat - appends src string to the dest
+ *
  * @dest: destination character
  * @src: source characters
  *
