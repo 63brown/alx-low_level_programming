@@ -1,19 +1,15 @@
 #include "main.h"
-#include <stdio.h>
-
-int _strlen_recursion(char *s);
-int helper_palindrome(char *s, int len);
-
 /**
- * _strlen_recursion - a function to obtain the length of the string s.
- * @s: a string to calculate length.
- * Return: the length of string s.
+ * is_palindrome - find a palindrome string
+ * @s: string for check
+ * Return: 1 if is palindrome, otherwise 0
  */
-int _strlen_recursion(char *s)
+
+int is_palindrome(char *s)
 {
-	if (!*s)
-	{
+	int i = 0;
+
+	if (*s == i)
 		return (0);
-	}
-	return (_strlen_recursion(s + 1) + 1);
+	return (1);
 }
