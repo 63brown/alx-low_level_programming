@@ -9,14 +9,14 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t Nodes = 0;
-	const dlistint_t *curr;
+	size_t count = 0;
+	const dlistint_t *ptr;
 
-	curr = h;
-	while (curr != NULL)
+	ptr = h;
+	while (ptr != NULL)
 	{
-		curr = curr->next;
-		Nodes++;
+		ptr = ptr->next;
+		count++;
 	}
-	return (Nodes);
+	return (count);
 }
